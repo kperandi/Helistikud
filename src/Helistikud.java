@@ -6,7 +6,7 @@ import java.util.HashMap;
  * Created by Kersti on 13.11.2016.
  */
 //Programm põhineb kvindiringil
-public class DieesidegaHelistikud {
+public class Helistikud {
 
     public static void main(String[] args) {
         System.out.println(getHelistikud());
