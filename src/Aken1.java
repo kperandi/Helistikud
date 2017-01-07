@@ -15,14 +15,15 @@ import java.util.LinkedHashMap;
 /**
  * Created by Kersti on 20.11.2016.
  */
-public class Aken1 extends Application {
-    @Override
-    public void start(Stage primaryStage) throws Exception {
+public class Aken1 {
 
+    public Aken1() {
+
+        Stage primaryStage = new Stage();
         Pane kast = new Pane();
-        Scene harjutus = new Scene(kast, 260, 260);
-        primaryStage.setScene(harjutus);
-        primaryStage.setTitle("Harjutamine");
+        Scene oppimine = new Scene(kast, 260, 260);
+        primaryStage.setScene(oppimine);
+        primaryStage.setTitle("Õppimine");
         primaryStage.show();
 
         Label ulesanne = new Label("Vali helistik!");
