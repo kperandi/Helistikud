@@ -22,20 +22,20 @@ public class Main extends Application {
         Button oppimine = new Button("Õppima!");
         oppimine.setTranslateX(20);
         oppimine.setTranslateY(40);
-        Button mangimine = new Button("Mängima!");
-        mangimine.setTranslateX(20);
-        mangimine.setTranslateY(80);
+        Button testimine = new Button("Testima!");
+        testimine.setTranslateX(20);
+        testimine.setTranslateY(80);
 
         oppimine.setOnAction(event -> {
             new Aken1();
                 });
 
-        mangimine.setOnAction(event -> {
+        testimine.setOnAction(event -> {
             new Aken2();
         });
 
 
-        aken.getChildren().addAll(ylesanne, oppimine, mangimine);
+        aken.getChildren().addAll(ylesanne, oppimine, testimine);
     }
 
 
